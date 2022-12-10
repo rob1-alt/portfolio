@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Clock from '../components/clock.js'
 
 
 
@@ -38,6 +39,9 @@ export default function Home() {
           </div>
        </div>
        <h1>Creative boy, who aims to undertake.</h1>
+       <div className={styles.clock}> 
+       <Clock/>
+       </div>
       </main>
 
 
