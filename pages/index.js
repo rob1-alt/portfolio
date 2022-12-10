@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Clock from '../components/clock.js'
+import Cursor from '../components/cursor.js'
 
 
 
@@ -35,7 +36,7 @@ export default function Home() {
             </ul>
           </div>
           <div className={styles.ninja}>
-            <span>🥷🏻</span>
+           <Link href="/"><span>🥷🏻</span></Link> 
           </div>
        </div>
        <h1>Creative boy, who aims to undertake.</h1>
