@@ -23,7 +23,7 @@ export default function Home() {
       <main className={styles.main}>
       <Navbar/>
        <div className={styles.title}>
-          <h1>Creative boy, who aims to undertake.</h1>
+          <h1>Creative boy, who aim to undertake.</h1>
         </div>
        <div className={styles.clock}> 
        <Clock/>
