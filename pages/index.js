@@ -3,9 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Clock from '../components/clock.js'
-import Cursor from '../components/cursor.js'
-
-
+import Navbar from '../components/navbar.js'
 
 export default function Home() {
   return (
@@ -23,29 +21,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-       <div className={styles.navbar}>
-          <div className={styles.navbar_logo}>
-            <span>Robin Pautigny</span>
-          </div>
-          <div className={styles.menu}>
-            <ul className={styles.menuItems}>
-              <Link href="/" className={styles.item}><li>Work</li></Link>
-              <Link href="/" className={styles.item}><li>WID</li></Link>
-              <Link href="/" className={styles.item}><li>About</li></Link>
-              <Link href="/" className={styles.item}><li>Contact</li></Link>
-            </ul>
-          </div>
-          <div className={styles.ninja}>
-           <Link href="/"><span>🥷🏻</span></Link> 
-          </div>
-       </div>
-       <h1>Creative boy, who aims to undertake.</h1>
+      <Navbar/>
+       <div className={styles.title}>
+          <h1>Creative boy, who aims to undertake.</h1>
+        </div>
        <div className={styles.clock}> 
        <Clock/>
        </div>
       </main>
-
-
     </div>
   )
 }

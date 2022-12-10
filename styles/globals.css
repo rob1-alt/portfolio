@@ -29,9 +29,7 @@ h1{
 
 @media screen and (min-width: 800px) {
   h1{
-    font-size: 13em;
-    
-   
+    font-size: 11em;
   }
 }
   
@@ -46,7 +44,6 @@ h1{
   }
 }
 
-  
 
 
 a {

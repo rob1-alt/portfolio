@@ -15,7 +15,7 @@ function Clock() {
 
   return (
     <div className={styles.clock}>
-     Currently {timeString} in Paris.🇫🇷
+     Currently {timeString} in <u>Paris</u>.🇫🇷
     </div>
   );
 }
