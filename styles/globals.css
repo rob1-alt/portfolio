@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'ApfelGrotezk';
-  src: url('../src/ApfelGrotezk-Regular.otf');
+  src: url('../src/fonts/ApfelGrotezk-Regular.otf');
   font-style: normal;
   }
 
 @font-face {
   font-family: 'Dm Sans Regular';
-  src: url('../src/DmSans-Regular.ttf');
+  src: url('../src/fonts/DMSans-Regular.ttf');
 }
 @font-face {
   font-family: 'Dm Sans Bold';
-  src: url('../src/DmSans-Bold.ttf');
+  src: url('../src/fonts/DMSans-Bold.ttf');
 }
 
 html,
