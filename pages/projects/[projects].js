@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import content from '../../portfolio.content.json';
+
 
 
 const Details = ({page}) => {
