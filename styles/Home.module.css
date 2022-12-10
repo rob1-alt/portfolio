@@ -1,7 +1,9 @@
+
+
+/*Home Hero CSS*/
 .main{
   height: 100vh;
 }
-
 .navbar{
   margin-top: 30px;
   display: flex;
@@ -24,19 +26,21 @@
 }
 
 .menuItems{
-  margin : 0;
+  font-family: 'Dm Sans Bold';
+  width: 400px;
   border-radius: 7px;
   height: 50px;
   background: #D2D2D2;
   list-style: none;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   color: black;
+  padding: 11px;
 }
 
 .item{
-  font-size: 20px;
-  
+  font-size: 20px; 
 }
 
 .ninja{
@@ -50,6 +54,17 @@
   padding: 11px;
 }
 
+.clock{
+  width: 200px;
+
+  position: fixed;
+  bottom : 1em;
+  right : 1.5em;
+  font-family: 'Dm Sans Bold';
+  width : 200px;
+}
+
+/* Responsive design 🇫🇷*/
 
 @media screen and (max-width: 768px) {  
   .menuItems{
