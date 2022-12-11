@@ -29,7 +29,10 @@ h1{
 
 @media screen and (min-width: 800px) {
   h1{
-    font-size: 11em;
+    display: flex;
+    font-size: 11.5em;
+    max-width: 1200px;
+    margin:0 auto;
   }
 }
   

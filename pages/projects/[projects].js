@@ -1,3 +1,5 @@
+export default function project() {}
+
 // import Head from 'next/head'
 // import content from '../../portfolio.content.json';
 
