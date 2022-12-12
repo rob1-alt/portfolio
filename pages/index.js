@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Clock from '../components/clock.js'
 import Navbar from '../components/navbar.js'
 import gsap from 'gsap'
-
+import { Kinesis } from '../components/kinesis.js'
 
 export default function Home() {
   
@@ -26,6 +26,11 @@ export default function Home() {
 
       <main className={styles.main}>
       <Navbar/>
+      <div id="kinesis">
+          <Kinesis className={Kinesis}>
+            <div className={styles.round}></div>
+          </Kinesis>
+        </div>
        <div className={styles.title}>
           <h1>Creative boy, who aim to undertake.</h1>
         </div>

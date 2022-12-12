@@ -16,8 +16,10 @@ export function Navbar() {
             <Link href="/" className={styles.item}><li>Contact</li></Link>
           </ul>
         </div>
+        <div className={styles.ninjaContainer}>
         <div className={styles.ninja}>
          <Link href="/"><span>🥷🏻</span></Link> 
+        </div>
         </div>
      </div>
     )

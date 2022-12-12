@@ -21,6 +21,7 @@ body {
 }
 
 h1{
+  z-index: 999;
   font-family: 'ApfelGrotezk';
   text-align: center;
   margin: 0;
