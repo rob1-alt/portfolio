@@ -40,10 +40,10 @@ h1{
 
 @media screen and (max-width: 768px) {
   h1{
-    font-size: 8vh;
+    font-size: 9vh;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 50%;
+    margin-top: 40%;
   }
 }
 
