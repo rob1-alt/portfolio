@@ -18,7 +18,7 @@ export default function Home() {
         <meta property="og:title" content="my goal is to undertake to create the solutions of tomorrow"/>
         <meta property="og:type" content="article" />
         <meta property="og:description" content=""/>
-        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"/>
+        <meta property="og:image" content="share.png"/>
         <meta property="og:url" content=""/>
         <meta name="twitter:card" content=""/>
         <link rel="icon" href="/favicon.ico" />
