@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Robin Pautigny</title>
         <meta name="description" content="Robin Pautigny" />
-        <meta property="og:title" content="my goal is to undertake to create the solutions of tomorrow<"/>
+        <meta property="og:title" content="my goal is to undertake to create the solutions of tomorrow"/>
         <meta property="og:type" content="article" />
         <meta property="og:description" content=""/>
         <meta property="og:image" content="../public/share.png"/>
