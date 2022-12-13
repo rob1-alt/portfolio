@@ -1,4 +1,8 @@
 /*Home Hero CSS*/
+
+.main{
+  overflow-x: hidden;
+}
 .main{
   height: 100vh;
 }
@@ -50,7 +54,6 @@
 .item:hover{
   background: #FFFFFF;
   border-radius: 7px;
-  
 }
 
 .ninjaContainer{
@@ -93,8 +96,10 @@
   .ninja{
     margin-right: 20px;
   }
+  .round{
+    display: none;
+  }
 }
-
 
 
 .round{
