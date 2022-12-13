@@ -18,8 +18,8 @@ export default function Home() {
         <meta property="og:title" content="my goal is to undertake to create the solutions of tomorrow"/>
         <meta property="og:type" content="article" />
         <meta property="og:description" content=""/>
-        <meta property="og:image" content="./share.png"/>
-        <meta name="twitter:card" content="./share.png"/>
+        <meta property="og:image" content="/share.png"/>
+        <meta name="twitter:card" content="/share.png"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
