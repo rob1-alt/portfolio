@@ -7,7 +7,10 @@ import Navbar from '../components/navbar.js'
 import gsap from 'gsap'
 import { Kinesis } from '../components/kinesis.js'
 
+
+
 export default function Home() {
+
   
   return (
     
@@ -15,7 +18,7 @@ export default function Home() {
       <Head>
         <title>Robin Pautigny</title>
         <meta name="description" content="Robin Pautigny" />
-        <meta property="og:title" content="my goal is to undertake to create the solutions of tomorrow"/>
+        <meta property="og:title" content=""/>
         <meta property="og:type" content="article" />
         <meta property="og:description" content=""/>
         <meta property="og:image" content="/share.png"/>
