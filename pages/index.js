@@ -18,7 +18,7 @@ export default function Home() {
         <meta property="og:title" content="my goal is to undertake to create the solutions of tomorrow"/>
         <meta property="og:type" content="article" />
         <meta property="og:description" content=""/>
-        <meta property="og:image" content="share.png"/>
+        <meta property="og:image" content="/share.png"/>
         <meta property="og:url" content=""/>
         <meta name="twitter:card" content=""/>
         <link rel="icon" href="/favicon.ico" />
@@ -37,6 +37,9 @@ export default function Home() {
        <div className={styles.clock}> 
        <Clock/>
        </div>
+      </main>
+      <main className={styles.projects}>
+        <div className={styles.project}></div>
       </main>
     </div>
   )
