@@ -18,9 +18,8 @@ export default function Home() {
         <meta property="og:title" content="my goal is to undertake to create the solutions of tomorrow"/>
         <meta property="og:type" content="article" />
         <meta property="og:description" content=""/>
-        <meta property="og:image" content="https://media.istockphoto.com/id/496525102/photo/senior-golfer-swinging-by-his-golf-cart-in-monochrome.jpg?s=612x612&w=0&k=20&c=x_qk3x2uch3hRuITIsK48AywlepPwTOPOaefS8FxHEE="/>
-        <meta property="og:url" content=""/>
-        <meta name="twitter:card" content=""/>
+        <meta property="og:image" content="./share.png"/>
+        <meta name="twitter:card" content="./share.png"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
