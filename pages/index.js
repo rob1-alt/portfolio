@@ -4,13 +4,25 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Clock from '../components/clock.js'
 import Navbar from '../components/navbar.js'
-import gsap from 'gsap'
+import {gsap} from 'gsap'
 import { Kinesis } from '../components/kinesis.js'
-
+import Footer from '../components/footer.js'
 
 
 export default function Home() {
 
+
+
+  if (typeof window !== "undefined") {
+    // browser code
+
+
+    gsap.to('#header', {
+      duration: 1, // durée de l'animation en secondes
+      x: 0, // translation horizontale de 100 pixels
+      y: 0, // translation verticale de 50 pixels 
+    });
+  }
   
   return (
     
@@ -34,15 +46,19 @@ export default function Home() {
           </Kinesis>
         </div>
        <div className={styles.title}>
-          <h1>Creative boy, who aim to undertake.</h1>
+          <h1 id='header'>Creative boy, who want to be an entrepreneur.</h1>
         </div>
        <div className={styles.clock}> 
        <Clock/>
        </div>
       </main>
-      <main className={styles.projects}>
+      {/* <main className={styles.projects}>
         <div className={styles.project}></div>
-      </main>
+      </main> */}
+      <h2>Student at Hetic</h2>
+      <div className={styles.studies}>
+      </div>
+      <Footer/>
     </div>
   )
 }

@@ -5,8 +5,10 @@
   overflow-y: hidden;
 }
 .main{
-  height: 100vh;
+  height: 120vh;
 }
+
+
 .navbar{
   margin-top: 30px;
   display: flex;
@@ -27,10 +29,13 @@
   text-align: center;
   padding: 11px;
 }
+.menu{
+  z-index: 100;
+}
 
 .menuItems{
   font-family: 'Dm Sans Bold';
-  width: 400px;
+  width: 420px;
   border-radius: 7px;
   height: 50px;
   background: #D2D2D2;
@@ -39,7 +44,7 @@
   flex-direction: row;
   justify-content: space-between;
   color: black;
-  padding: 11px;
+  padding: 12px;
 }
 
 .title{
@@ -120,4 +125,41 @@
 .projects{
   height: 100vh;
   background: #181918;
+}
+
+.studies{
+  display: flex;
+  justify-content: center;
+}
+
+.hetic{
+  filter: grayscale(100%);
+  border-radius: 20px;
+}
+
+
+.char{
+  transform: translateY(115px);
+  transition: transform 0.5s;
+}
+
+.me{
+  font-size: 4vw;
+  margin-left: 40px;
+}
+
+.banner{
+  font-family: 'apfelGrotezk';
+}
+
+.rope{
+  height: 3px;
+  background: #ffffff;
+  width: 95%;
+  margin-left: 40px;
+
+}
+.bannerLeft{
+  display: flex;
+  justify-content: center;
 }
