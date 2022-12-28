@@ -7,21 +7,24 @@ import Navbar from '../components/navbar.js'
 import {gsap} from 'gsap'
 import { Kinesis } from '../components/kinesis.js'
 import Footer from '../components/footer.js'
+import { useRef, useEffect } from 'react'
 
 
 export default function Home() {
 
-
+  const textElement = useRef(null);
 
   if (typeof window !== "undefined") {
     // browser code
 
-
-    gsap.to('#header', {
-      duration: 1, // durée de l'animation en secondes
-      x: 0, // translation horizontale de 100 pixels
-      y: 0, // translation verticale de 50 pixels 
-    });
+    useEffect(() => {
+      gsap.to(textElement.current, {
+        duration: 2,
+        opacity: 1,
+        y: -50,
+        ease: "power4.out",
+      });
+    }, []);
   }
   
   return (
@@ -46,7 +49,7 @@ export default function Home() {
           </Kinesis>
         </div>
        <div className={styles.title}>
-          <h1 id='header'>Creative boy, who want to be an entrepreneur.</h1>
+          <h1 id='header' ref={textElement}>Creative boy, who want to be an entrepreneur.</h1>
         </div>
        <div className={styles.clock}> 
        <Clock/>
@@ -55,7 +58,7 @@ export default function Home() {
       {/* <main className={styles.projects}>
         <div className={styles.project}></div>
       </main> */}
-      <h2>Student at Hetic</h2>
+      <h2 className={styles.gh}>Student at Hetic</h2>
       <div className={styles.studies}>
       </div>
       <Footer/>

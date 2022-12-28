@@ -11,13 +11,13 @@ export default function Footer() {
                 <div className={styles.rope}></div>
             <span>rob1@digital-labs.dev</span>
                 <div className={styles.bannerLeft}>
-                    <Link href="/">Ig</Link>
-                    <Link href="/">Tw</Link>
+                    <Link href="https://www.instagram.com/robin.pty/?hl=fr">Ig</Link>
+                    <Link href="https://twitter.com/Robin_pautigny">Tw</Link>
                     <Link href="/">Li</Link>
                     <span>0652763041</span>
                 </div>
-                <Link href="/">Mentions légales</Link>
-                    <span>©2023</span>
+              
+              
             </div>
         </div>
     )
