@@ -8,23 +8,34 @@ import {gsap} from 'gsap'
 import { Kinesis } from '../components/kinesis.js'
 import Footer from '../components/footer.js'
 import { useRef, useEffect } from 'react'
-
+import Breadcrumb from '../components/breadcrumb.js'
 
 export default function Home() {
 
   const textElement = useRef(null);
+  const textRef = useRef(null);
 
   if (typeof window !== "undefined") {
-    // browser code
-
     useEffect(() => {
       gsap.to(textElement.current, {
         duration: 2,
         opacity: 1,
-        y: -50,
+        y: 0,
         ease: "power4.out",
       });
     }, []);
+
+    useEffect(() => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            gsap.to(textRef.current, { duration: 1, opacity: 1 });
+          }
+        });
+      });
+      observer.observe(textRef.current);
+    }, []);
+  
   }
   
   return (
@@ -58,7 +69,7 @@ export default function Home() {
       {/* <main className={styles.projects}>
         <div className={styles.project}></div>
       </main> */}
-      <h2 className={styles.gh}>Student at Hetic</h2>
+      <h2 ref={textRef} className={styles.gh}>Student at Hetic</h2>
       <div className={styles.studies}>
       </div>
       <Footer/>

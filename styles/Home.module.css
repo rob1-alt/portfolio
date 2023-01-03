@@ -1,5 +1,4 @@
 /*Home Hero CSS*/
-
 .main{
   overflow-x: hidden;
   overflow-y: hidden;
@@ -7,8 +6,6 @@
 .main{
   height: 120vh;
 }
-
-
 .navbar{
   margin-top: 30px;
   display: flex;
